@@ -1,0 +1,125 @@
+/* RESET GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* HEADER / BANNER POTENT */
+header {
+    background: linear-gradient(135deg, #111827, #1f2937);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+header p {
+    color: #9ca3af;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* MAIN CONTAINER */
+main {
+    flex: 1;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* SECCIONS DEL PORTFOLIO */
+.seccio-portfolio {
+    margin-bottom: 50px;
+}
+
+.seccio-portfolio h2 {
+    font-size: 1.6rem;
+    color: #111827;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #36d246;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* GRID RESPONSIVE */
+.grid-portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* TARGETES / ENLLAÇOS */
+.card-link {
+    background-color: white;
+    padding: 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card-link h3 {
+    font-size: 1.25rem;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+.card-link p {
+    font-size: 0.9rem;
+    color: #6b7280;
+    line-height: 1.4;
+}
+
+/* EFECTE HOVER */
+.card-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
+    border-color: #36d246;
+}
+
+.card-cv {
+    background-color: #f3f4f6;
+}
+
+.properament {
+    border-style: dashed;
+    background-color: #fafafa;
+    cursor: default;
+}
+
+.properament:hover {
+    transform: none;
+    box-shadow: none;
+    border-color: #e5e7eb;
+}
+
+/* FOOTER */
+footer {
+    background-color: #111827;
+    color: #9ca3af;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+    margin-top: auto;
+}
