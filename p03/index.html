@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!-- JAVASCRIPT -->
+    <script src="./js/main.js" defer ></script>
+
+    <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV P03 Miquel</title>
+
+
+
+
+</head>
+
+<body>
+
+
+<header>
+
+    <div id="header-top"></div>
+
+    <div id="header-container">
+
+        <div id="header-esq">
+            <h1>Miquel Monclús Molina</h1>
+            <h2>Estudiant de desenvolupament web</h2>
+
+            <p id="descripcio">
+            Estudiant de segon any de Disseny Digital i Tecnologia Multimèdia al <br> 
+            Centre de la Imatge i la Tecnologia Multimèdia (CITM).
+            </p>
+        </div>
+
+        <div id="header-dreta">
+            <img id="fotoperfil" src="./img/foto.jpg" alt="Foto de perfil">
+            <p id="naixement">Nascut el 20/12/2006</p>
+        </div>
+
+    </div>
+
+</header>
+
+
+<div id="biografia">
+    <div id="bio-header">
+        <h3>BIOGRAFIA</h3>
+    </div>
+
+    <p>
+        Estudiant universitari amb esperit treballador. Ordenat, responsable i sempre disposat a fer la feina ben feta. Amb facilitat per treballar en equip, iniciativa pròpia i ganes d’aprendre.<br> 
+        Interessat a aplicar els meus coneixements en entorns professionals reals per continuar formant-me i aportar valor.
+    </p>
+</div>
+
+<section id="formacio-habilitats">
+
+    <!-- FORMACIÓ -->
+    <div id="formacio">
+        <h3>FORMACIÓ</h3>
+
+        <div class="card">
+            <p class="titol">Educació primària, secundària i batxillerat</p>
+            <p>Tecnos</p>
+            <p>Any de graduació 2024</p>
+        </div>
+
+        <div class="card">
+            <p class="titol">Estudis universitaris</p>
+            <p>Grau en Disseny Digital i Tecnologies Multimèdia</p>
+            <p>UPC CITM</p>
+            <p>En procés</p>
+            <p>Any de graduació prevista 2028</p>
+        </div>
+
+        <div class="card">
+            <p class="titol">Altres títols</p>
+            <p>Certificat nivell d’anglès</p>
+            <p>Oxford Test of English, 2022</p>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div id="habilitats">
+        <h3>HABILITATS TÈCNIQUES</h3>
+
+        <div id="container"></div>
+
+        <button id="toggle-btn">Veure més</button>
+    </div>
+
+</section>
+
+<!--Formulari contacte-->
+<section class="contacte">
+  <div class="contacte-container">
+    
+    <div class="contacte-text">
+      <h3>CONTACTE</h3>
+      <p>Per qualsevol aclaració, missatge<br> o contacte, ompliu aquest<br> formulari:</p>
+    </div>
+
+    <form id="formulariContacte" novalidate>
+      
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" placeholder="Escriu el teu nom" required>
+
+      <label for="correu">Correu</label>
+      <input type="email" id="correu" placeholder="Escriu el teu correu electrònic" required>
+
+      <label for="missatge">Missatge</label>
+    <textarea id="missatge" placeholder="Escriu el teu missatge" required></textarea>
+
+      <button type="submit" id="enviar">Enviar</button>
+
+
+
+    </form>
+  </div>
+</section>
+
+
+</body>
+</html>
+
+

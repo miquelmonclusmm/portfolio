@@ -1,0 +1,408 @@
+h1{
+    font-family: "Montserrat";
+    font-weight: bolder;
+    margin-left: 40px;
+    font-size: 54px;
+}
+
+h2{
+    font-family: "Inter";
+    font-weight:normal;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight:bold;
+
+    font-size: 22px;
+}
+
+#descripcio{
+    font-family: "Inter";
+    margin-left: 40px;
+    margin-top: 70px;
+    font-size: 15px;
+}
+
+
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#fotoperfil{
+    max-width: 288px;
+    max-height: 384px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#header-dreta #naixement {
+  font-family: "Inter";
+  font-weight:normal;
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#header-top {
+
+  margin-top: 50px;
+  margin-left: 80px;
+
+}
+
+#header-esq{
+    margin-left: 80px;
+ 
+}
+
+#header-dreta{
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+}
+
+#header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#biografia{
+    background-color: #3aa0c8;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 5px 10px; 
+    border-radius: 15px;
+    color: white;
+
+}
+
+#bio-header{
+    margin-left: 40px;
+    margin-bottom: 1px; 
+
+    font-family: "Montserrat";
+    font-weight:lighter;
+}
+
+#biografia p{
+    margin-left: 40px;
+
+    font-family: "Inter";
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#formacio-habilitats{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+#formacio{
+    width: 100%;
+    max-width: 500px;
+    margin-left: 80px;
+    align-items: flex-start; 
+
+}
+
+.card{
+    background-color: #d9d9d9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+
+    display: inline-block;   
+    max-width: 100%;       
+
+}
+
+
+.card .titol{
+    font-family: "Montserrat";
+    font-weight:lighter;
+    font-weight: bold;
+}
+
+.card p{
+    font-family: "Inter";
+
+}
+
+
+#habilitats{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+
+    gap: 60px;
+}
+
+.skill{
+    background-color: #79A1D9;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+#toggle-btn{
+    font-family: "Roboto";
+    background-color: #31A2CE;
+    color: white;
+    margin-top: 50px;
+
+    display: block;              
+
+
+    padding: 10px 40px;          
+    border-radius: 20px;
+
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+/*formulari contacte*/
+
+.contacte {
+  background-color: #162D3A;
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 30px;
+    font-family: "Inter";
+}
+
+.contacte-container {
+  display: flex;
+  gap: 40px;
+}
+
+.contacte label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Inter";
+}
+
+form {
+flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.contacte input,
+.contacte textarea {
+  font-family: "Inter";
+}
+
+.contacte input::placeholder,
+.contacte textarea::placeholder {
+  font-family: "Inter";
+}
+
+.contacte-text{
+margin-left: 40px;
+}
+
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-family: "Inter";
+  font-size: 14px;
+}
+
+#enviar{
+
+    font-family: "Roboto";
+    background-color: #31A2CE;
+    color: white;
+
+
+      width: fit-content;    
+    padding: 10px 40px;          
+    border-radius: 20px;
+
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.good {
+  color: #2ecc71; 
+  margin-top: 10px;
+  font-family: "Inter";
+  font-size: 14px;
+}
+
+
+.salutacio {
+  font-family: "Inter";
+  font-size: 18px;
+
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+
+  #header-container {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 0 20px;
+  }
+
+  #header-esq {
+    margin-left: 0;
+    order: 2;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-left: 0;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  #descripcio {
+    margin-left: 0;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+
+  #header-top {
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+
+  #header-dreta {
+    margin-right: 0;
+    align-items: flex-start;
+  }
+
+  #header-bottom {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  #fotoperfil {
+    width: 263px;
+    height: auto;
+  }
+
+  #naixement {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  #biografia {
+    margin: 20px;
+  }
+
+  #biografia p,
+  #bio-header {
+    margin-left: 20px;
+  }
+
+  #formacio-habilitats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  #formacio {
+    margin: 0;
+  }
+
+  #habilitats {
+    margin: 0;
+  }
+
+  #container {
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .skill {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+
+  #toggle-btn {
+    margin-top: 20px;
+    padding: 8px 20px;
+  }
+
+  .contacte {
+    margin: 20px;
+  }
+
+  .contacte-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+
+  .contacte-text {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input, textarea {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #enviar {
+    align-self: flex-start;
+  }
+
+  .card {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}
