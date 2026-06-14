@@ -1,24 +1,66 @@
 <!DOCTYPE html>
-<html lang="ca">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Index Miquel Monclús</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miquel Monclús | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Miquel Monclús</h1>
-    <p>Disseny Web - Índex de pràctiques</p>
+    <header>
+        <h1>Miquel Monclús</h1>
+        <p>Portfolio Digital — Proyectos Personales</p>
+    </header>
 
-    <div class="links">
+    <main>
+        
+        <section class="seccio-portfolio">
+            <h2>Currículums</h2>
+            <div class="grid-portfolio">
 
-        <a href="cvesp">CV ESP</a>
-        <a href="cvcat">CV CAT</a>
+                <a href="cvcat" class="card-link card-cv">
+                    <h3>CV Catalán</h3>
+                    <p>Versión en catalán formato web</p>
+                </a>
 
-        <a href="p03">CV Digital Desenvolupament Web</a>
-        <a href="p04">Web Restaurant Italia</a>
+                <a href="cvesp" class="card-link card-cv">
+                    <h3>CV Castellano</h3>
+                    <p>Versión en castellano formato web</p>
+                </a>
+             
+            </div>
+        </section>
 
-    </div>
+        <section class="seccio-portfolio">
+            <h2>Proyectos Web</h2>
+            <div class="grid-portfolio">
+                <a href="p03" class="card-link">
+                    <h3>CV Digital</h3>
+                    <p>Práctica P03: Estructura semántica y maquetación profesional.</p>
+                </a>
+                <a href="p04" class="card-link">
+                    <h3>Web Restaurant Italia</h3>
+                    <p>Práctica P04: Carta digital de la Pizzeria Bambini con SessionStorage.</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="seccio-portfolio">
+            <h2>Videojuegos</h2>
+            <div class="grid-portfolio">
+                <div class="card-link properament">
+                    <h3>Próximamente</h3>
+                    <p>Espacio reservado para tus futuros proyectos de videojuegos...</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Miquel Monclús. Todos los derechos reservados.</p>
+    </footer>
 
 </body>
 </html>
