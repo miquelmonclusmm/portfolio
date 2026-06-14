@@ -14,9 +14,9 @@ body {
     min-height: 100vh;
 }
 
-/* HEADER / BANNER POTENT */
+/* HEADER / BANNER */
 header {
-    background: linear-gradient(135deg, #111827, #1f2937);
+    background: linear-gradient(135deg, #111827, #1f2937); /* Degradado oscuro premium */
     color: white;
     padding: 60px 20px;
     text-align: center;
@@ -44,7 +44,7 @@ main {
     padding: 40px 20px;
 }
 
-/* SECCIONS DEL PORTFOLIO */
+/* SECCIONES DEL PORTFOLIO */
 .seccio-portfolio {
     margin-bottom: 50px;
 }
@@ -53,19 +53,19 @@ main {
     font-size: 1.6rem;
     color: #111827;
     margin-bottom: 20px;
-    border-bottom: 3px solid #36d246;
+    border-bottom: 3px solid #36d246; /* Verde italiano para dar continuidad de marca */
     display: inline-block;
     padding-bottom: 5px;
 }
 
-/* GRID RESPONSIVE */
+/* GRID RESPONSIVE (Detecta espacio automáticamente) */
 .grid-portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Subido a 300px para albergar mejor los textos largos */
     gap: 20px;
 }
 
-/* TARGETES / ENLLAÇOS */
+/* TARJETAS / ENLACES */
 .card-link {
     background-color: white;
     padding: 24px;
@@ -82,36 +82,28 @@ main {
 .card-link h3 {
     font-size: 1.25rem;
     color: #111827;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .card-link p {
-    font-size: 0.9rem;
-    color: #6b7280;
-    line-height: 1.4;
+    font-size: 0.95rem; /* Un pelín más grande para que las sinopsis se lean de lujo */
+    color: #4b5563; /* Gris con un punto más de contraste */
+    line-height: 1.5; /* Más interlineado para textos largos */
 }
 
-/* EFECTE HOVER */
+/* EFECTO HOVER (ELEVACIÓN) */
 .card-link:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
-    border-color: #36d246;
+    border-color: #36d246; /* Iluminación en verde al pasar el cursor */
 }
 
+/* ESTILO SUTIL PARA LOS CVs */
 .card-cv {
     background-color: #f3f4f6;
 }
-
-.properament {
-    border-style: dashed;
-    background-color: #fafafa;
-    cursor: default;
-}
-
-.properament:hover {
-    transform: none;
-    box-shadow: none;
-    border-color: #e5e7eb;
+.card-cv:hover {
+    background-color: white;
 }
 
 /* FOOTER */
@@ -119,7 +111,7 @@ footer {
     background-color: #111827;
     color: #9ca3af;
     text-align: center;
-    padding: 20px;
+    padding: 25px 20px;
     font-size: 0.85rem;
-    margin-top: auto;
+    margin-top: auto; /* Se pega abajo automáticamente si hay poca pantalla */
 }
