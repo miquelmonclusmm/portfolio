@@ -115,3 +115,53 @@ footer {
     font-size: 0.85rem;
     margin-top: auto; /* Se pega abajo automáticamente si hay poca pantalla */
 }
+
+/* CONTENEDOR PARA LIMITAR EL TAMAÑO DE LOS LOGOS */
+.img-container {
+    width: 100%;
+    height: 140px;          /* Altura máxima para que no estiren la tarjeta */
+    display: flex;
+    align-items: center;    /* Centra el logo verticalmente */
+    justify-content: center;/* Centra el logo horizontalmente */
+    background-color: #f3f4f6; /* Fondo gris suave sutil detrás del logo */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/* EL LOGO EN SÍ */
+.card-img-logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;    /* Hace que el logo quepa entero sin recortarse */
+}
+
+/* SUBTÍTULOS DE SECCIÓN (Para el apartado de Trailers) */
+.subtitol-portfolio {
+    font-size: 1.1rem;
+    color: #4b5563;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* CONTENIDOR PER DOMAR ELS LOGOS */
+.img-container {
+    width: 100%;
+    height: 160px;             /* Alçada màxima controlada per a que les targetes siguin iguals */
+    display: flex;
+    align-items: center;       /* Centra el logo verticalment */
+    justify-content: center;   /* Centra el logo horitzontalment */
+    background-color: #f3f4f6; /* Fons griset suau molt elegant per darrere dels logos png */
+    border-radius: 8px;        /* Bordes arrodonits */
+    margin-bottom: 15px;       /* Espai amb el títol */
+    padding: 15px;             /* Margen intern per a que el logo no toqui les parets */
+}
+
+/* LA IMATGE EN SÍ */
+.card-img-logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;       /* Evita que la imatge es retalli o es deformi */
+}
